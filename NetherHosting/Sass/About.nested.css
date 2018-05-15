@@ -1,0 +1,31 @@
+h3 {
+  padding-left: 15px;
+  font-size: 2em; }
+
+.TopP {
+  height: 100px;
+  background: #564185;
+  font-size: 2em;
+  color: white; }
+  .TopP p {
+    margin: 50px auto;
+    padding: 30px 0 0 20px; }
+
+footer {
+  margin-top: 20px; }
+
+.PlansC {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px; }
+  .PlansC ul {
+    padding: 20px; }
+
+@media screen and (max-width: 815px) {
+  .Reviews .slideshow-container div ul {
+    padding-left: 25%; }
+  footer .twitter img {
+    height: 35px;
+    position: relative;
+    bottom: 15px;
+    left: 80%; } }
