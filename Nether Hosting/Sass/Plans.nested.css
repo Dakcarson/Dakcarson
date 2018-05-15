@@ -1,0 +1,96 @@
+h3 {
+  padding-left: 15px;
+  font-size: 2em; }
+
+.TopP {
+  height: 100px;
+  background: #564185;
+  font-size: 2em;
+  color: white; }
+  .TopP p {
+    margin: 50px auto;
+    padding: 30px 0 0 20px; }
+
+.PlansC {
+  display: table;
+  align-content: center;
+  max-width: 1050px;
+  margin: 0 auto; }
+  .PlansC p {
+    padding: 0 0 0 15px;
+    max-width: 800px; }
+  .PlansC P:first-child {
+    font-size: 2em;
+    padding: 0;
+    margin: 0; }
+  .PlansC ul {
+    max-width: 1300px;
+    padding: 0 5%;
+    margin: 0 auto;
+    height: 95%;
+    list-style: none; }
+    .PlansC ul li {
+      display: inline-block;
+      width: 250px;
+      height: 330px;
+      background: #794b91;
+      border: 1px solid black;
+      border-radius: 5px;
+      margin: 15px;
+      text-align: center;
+      padding: 15px 10px 10px 10px;
+      color: white;
+      padding: 0; }
+      .PlansC ul li p {
+        padding: 0; }
+      .PlansC ul li .button {
+        width: 60%;
+        background: #d70036;
+        padding: 1px 0;
+        margin: 0 auto;
+        font-size: 30px;
+        border-radius: 15px;
+        color: #1e1b18;
+        font-weight: bold; }
+        .PlansC ul li .button a {
+          margin: 5px; }
+      .PlansC ul li img {
+        width: 145px; }
+
+footer {
+  margin-top: 20px; }
+
+@media screen and (max-width: 1026px) {
+  .PlansC ul {
+    padding-left: 22%; } }
+
+@media screen and (max-width: 950px) {
+  .PlansC ul {
+    padding-left: 15%; } }
+
+@media screen and (max-width: 775px) {
+  .PlansC ul {
+    padding-left: 10%; } }
+
+@media screen and (max-width: 750px) {
+  .PlansC ul {
+    padding-left: 2%; } }
+
+@media screen and (max-width: 650px) {
+  .PlansC ul {
+    padding-left: 25%; } }
+
+@media screen and (max-width: 550px) {
+  .PlansC ul {
+    padding-left: 20%; } }
+
+@media screen and (max-width: 450px) {
+  .PlansC ul {
+    padding-left: 15%; } }
+
+@media screen and (max-width: 350px) {
+  .foot, .TopP {
+    min-width: 320px; }
+  .PlansC ul {
+    padding-left: 5%;
+    max-width: 320px; } }

@@ -1,0 +1,129 @@
+<!Doctype html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../Sass/Main.css">
+    <link type="text/css" rel="stylesheet" href="../Sass/Give.css">
+    <link type="java" rel="java" href="../Js/Main.js">
+    <title>Default title</title>
+  </head>
+  <body>
+    <header>
+      <img src="../Images/logo.png">
+      <h1><a href="">MineCraft Console Generator</a></h1>
+      <nav>
+        <ul>
+          <li><a href="Give.html">Give</a></li>
+          <li><a href="../Index.html">Summon</a></li>
+          <li class="Current"><a href="Score.html">Score Boards</a></li>
+          <li><a href="Effects.html">Effects</a></li>
+          <li><a href="Other.html">Others</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="MainB">
+      <section>
+        <h3 id="GType">Scoreboard</h3>
+        <p id="GDes">/Scoreboard objective, player, teams</p>
+        <div id="Generator">
+          <input type="text" placeholder="/Scoreboard">
+          <ul>
+            <li>Scoreboard:
+              <select name="Type">
+                <option value="players">Player</option>
+                <option value="objectives">Objectives</option>
+                <option value="teams">Teams</option>
+              </select>
+            </li>
+            <li id="Player">
+              <ul>
+                <li>
+                  <select name="PlayerT">
+                    <option value="add">Add</option>
+                    <option value="enable">Enable</option>
+                    <option value="list">List</option>
+                    <option value="Operation">Operation</option>
+                    <option value="remove">Remove</option>
+                    <option value="reset">Reset</option>
+                    <option value="set">Set</option>
+                    <option value="tag">Tag</option>
+                    <option value="test">Test</option>
+                  </select>
+                </li>
+                <li id="Sname">Player Name:<input type="text" placeholder="@p"></li>
+                <li id="add">Scoreboard name:<input type="text" placeholder="Name to add to"><input type="number"></li>
+                <li id="enable">Scoreboard name:<input type="text" placeholder="to trigger"></li>
+                <li id="remove">Scoreboard name:<input type="text" placeholder="to remove from"><input type="number"></li>
+                <li id="add">Scoreboard name:<input type="text" placeholder="to set"><input type="number"></li>
+                <li id="add">Scoreboard name:<input type="text" placeholder="Name to add to"><input type="number"></li>
+              </ul>
+            </li>
+            <li id="Objective">
+              <ul>
+              <li>
+                <select name="PlayerT">
+                  <option value="add">Add</option>
+                  <option value="list">List</option>
+                  <option value="remove">Remove</option>
+                  <option value="setdisplay">SetDisplay</option>
+                </select>
+              </li>
+              <li id="OName">
+                Name:<input type="text" placeholder="of Scoreboard">
+              </li>
+              <li>
+                Number:<input type="number">
+              </li>
+              <li id="Criteria">
+                Criteria:<input list="Criteria" placeholder="dummy">
+              </li>
+              <li>
+                Display Name:<input type="text">
+              </li>
+              <li id="SetDisplay">
+                Team Sidebar Displays:<input type="checkbox" name="Team" value="Showteams">
+                <select name="SSetDisplay">
+                  <option value="belowName">Below The Name</option>
+                  <option value="list">List</option>
+                  <option value="sidebar">Side Bar</option>
+                </select>
+                <select class="TeamDisplay" name="Teamcolor" placeholder="Side Bar Team Color">
+                  <option value="sidebar.team.aqua">Side Bar Aqua</option>
+                  <option value="sidebar.team.black">Side Bar Black</option>
+                  <option value="sidebar.team.blue">Side Bar Blue</option>
+                  <option value="sidebar.team.dark_blue">Side Bar Dark Blue</option>
+                  <option value="sidebar.team.dark_aqua">Side Bar Dark Aqua</option>
+                  <option value="sidebar.team.dark_gray">Side Bar Dark gray</option>
+                  <option value="sidebar.team.dark_green">Side Bar Dark Green</option>
+                  <option value="sidebar.team.dark_purple">Side Bar Dark Purple</option>
+                  <option value="sidebar.team.dark_red">Side Bar Dark Red</option>
+                  <option value="sidebar.team.gold">Side Bar Gold</option>
+                  <option value="sidebar.team.gray">Side Bar Gray</option>
+                  <option value="sidebar.team.green">Side Bar Green</option>
+                  <option value="sidebar.team.light_purple">Side Bar Light Purple</option>
+                  <option value="sidebar.team.red">Side Bar Red</option>
+                  <option value="sidebar.team.white">Side Bar White</option>
+                  <option value="sidebar.team.yellow">Side Bar Yellow</option>
+                </select>
+            </li>
+            <li>Teams:...yea i dont know this shit here</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="SideB">
+    </div>
+  </body>
+  <footer>
+    <nav>
+      <h2><a href="">I'm a H2 tag</a></h2>
+      <ul>
+        <li><a href="Give.html">Give</a></li>
+        <li><a href="../Index.html">Summon</a></li>
+        <li class="Current"><a href="Score.html">Score Boards</a></li>
+        <li><a href="Effects.html">Effects</a></li>
+        <li><a href="Other.html">Others</a></li>
+      </ul>
+    </nav>
+  </footer>
+</html>
+<input

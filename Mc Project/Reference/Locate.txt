@@ -1,0 +1,1 @@
+EndCity, Fortress, Mansion, Mineshaft, Monument, Stronghold, Temple, Village

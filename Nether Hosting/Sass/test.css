@@ -1,0 +1,196 @@
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media screen and (max-width: 800px) {
+    #bg {
+      background: url(../Images/Home/steve.png) top right no-repeat, url(../Images/Home/alex.png) left bottom no-repeat;
+      width: 400px;
+      height: 600px
+    }
+    #bg ul li {
+      display: inline-block;
+      float: none;
+      margin: 10px auto;
+    }
+    #bg ul {
+      width: auto;
+      padding-left: 25%;
+    }
+    .Features{
+      padding: 0 25%;
+    }
+    .Reviews .slideshow-container div ul {
+      padding-left: 15%;
+
+    }
+
+    .MainB .Top {
+      background: #564185 url(../Images/Home/obsB.png) center no-repeat, url(../Images/Home/obs.png) repeat;
+    }
+    .MainB .Top p {
+      width: auto;
+      max-height: 150px;
+      padding: 75px 0 0 0;
+    }
+}
+@media screen and (max-width: 980px) {
+    .Reviews .slideshow-container div ul{
+      padding-left: 20%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Reviews .slideshow-container div ul{
+      padding-left: 15%;
+    }
+    #bg {
+      width: auto;
+      margin: 0;
+    }
+}
+@media screen and (max-width: 815px) {
+    .Reviews .slideshow-container div ul {
+      padding-left: 25%;
+    }
+    footer .twitter img {
+        height: 35px;
+        position: relative;
+        bottom: 15px;
+        left: 80%;
+      }
+
+}
+@media screen and (max-width: 750px) {
+    .Reviews .slideshow-container div ul {
+      padding-left: 25%;
+    }
+    #ul {
+      padding-left: 18%;
+      height: 300px;
+      width: auto;
+    }
+    #bg ul {
+      width: auto;
+      padding-left: 20%;
+    }
+}
+@media screen and (max-width: 700px) {
+    #ul {
+      padding-left: 15%;
+      height: 300px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #ul {
+      padding-left: 10%;
+      height: 300px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Reviews .slideshow-container div ul {
+      padding-left: 20%;
+    }
+    footer .twitter img {
+        height: 35px;
+        position: relative;
+        bottom: 15px;
+        left: 80%;
+      }
+    #Tiles{
+      display:block;
+      float: none;
+      padding-top: 10px;
+    }
+    #bg ul {
+      width: auto;
+      padding-left: 15%;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .Reviews .slideshow-container div ul {
+      padding-left: 15%;
+    }
+    .Features {
+      padding: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Reviews .slideshow-container div ul {
+      padding-left: 10%;
+    }
+    .Features {
+      padding: 0;
+      width: 200px;
+      margin-right: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+  .MainB nav, ul, li:last-child {
+    padding-left: 15px
+  }
+  body nav ul li:first-child {
+    padding-left: 15px
+  }
+  .Features{
+    padding: 0;
+    width: 200px;
+  }
+  .Features ul {
+    padding: 0;
+
+  }
+  .Reviews .slideshow-container div ul {
+    padding-left: 0;
+  }
+  .MainB .Top {
+    height: 500px;
+    background: #564185;
+  }
+  .Top .button {
+    margin-top: 0;
+  }
+  .MainB .Top p {
+    margin-bottom:150px;
+  }
+  footer .twitter img {
+      height: 35px;
+      position: relative;
+      bottom: 15px;
+      left: 80%;
+    }
+  #ul li:last-child {
+    margin-top: 0;
+  }
+  #ul {
+    padding-left: 0;
+  }
+  #bg {
+    width: 320px;
+  }
+}

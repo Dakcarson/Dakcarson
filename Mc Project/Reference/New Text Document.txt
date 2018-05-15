@@ -1,0 +1,45 @@
+/advancement <grant|revoke|test> <player>
+/blockdata <x> <y> <z> <dataTag>
+/clear [player] [item] [data] [maxCount] [dataTag]
+/clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]
+/debug <start|stop>
+/defaultgamemode <mode>
+/difficulty <new difficulty>
+/effect <player> <effect> [seconds] [amplifier] [hideParticles] OR /effect <player> clear
+/enchant <player> <enchantment ID> [level]
+/entitydata <entity> <dataTag>
+/execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <dataValue|-1|state|*> <command>
+/fill <x1> <y1> <z1> <x2> <y2> <z2> <block> [dataValue|state] [oldBlockHandling] [dataTag]
+/function <name> [if <selector>|unless <selector>]
+/gamemode <mode> [player]
+/gamerule <rule name> [value]
+/give <player> <item> [amount] [data] [dataTag]
+/kill [player|entity]
+/locate <feature>
+/me <action ...>
+/particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [mode] [player] [params]
+/playsound <sound> <source> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]
+/recipe <give|take> [player] <name|*>
+/replaceitem <entity|block> ...
+/say <message ...>
+/scoreboard <objectives|players|teams> ...
+/setblock <x> <y> <z> <block> [dataValue|state] [oldBlockHandling] [dataTag]
+/setworldspawn [<x> <y> <z>]
+/spawnpoint [player] [<x> <y> <z>]
+/spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>
+/stats <entity|block> ...
+/stopsound <player> [source] [sound]
+/summon <entityname> [x] [y] [z] [dataTag]
+/teleport <entity> <x> <y> <z> [<y-rot> <x-rot>]
+/tell <player> <private message ...>
+/tellraw <player> <raw json message>
+/testfor <player> [dataTag]
+/testforblock <x> <y> <z> <block> [dataValue|-1|state|*] [dataTag]
+/testforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]
+/time <set|add|query> <value>
+/title <player> title|subtitle|actionbar|clear|reset|times ...
+/tp [target player] <destination player> OR /tp [target player] <x> <y> <z> [<yaw> <pitch>]
+/trigger <objective> <add|set> <value>
+/weather <clear|rain|thunder> [duration in seconds]
+/worldborder <set|center|damage|warning|get|add> ...
+/xp <amount> [player] OR /xp <amount>L [player]

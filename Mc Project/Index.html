@@ -1,0 +1,231 @@
+<!Doctype html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="Sass/Main.css">
+    <link type="text/css" rel="stylesheet" href="Sass/Summon.css">
+    <link type="java" rel="java" href="Js/Main.js">
+    <title>Default title</title>
+  </head>
+  <body>
+    <header>
+      <img src="Images/logo.png">
+      <h1><a href="">MineCraft Console Generator</a></h1>
+      <nav>
+        <ul>
+          <li><a href="Pages/Give.html">Give</a></li>
+          <li class="Current"><a href="">Summon</a></li>
+          <li><a href="Pages/Score.html">Score Boards</a></li>
+          <li><a href="Pages/Effects.html">Effects</a></li>
+          <li><a href="Pages/Other.html">Others</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="MainB">
+      <section>
+        <h3 id="GType">Summon</h3>
+        <p id="GDes">/summon <entityname> [x] [y] [z] [dataTag]</p>
+        <div id="Generator">
+          <input type="text" id="FinalCode">
+          <ul>
+            <li>Entity:<input list="Entity"></li>
+            <li>Name:<input type="text" id="Name">:Hide name <input type="checkbox" id="HName"></li>
+            <li>No Gravity:<input type="checkbox" id="Gravity"></li>
+            <li>Persistent:<input type="checkbox" id="Persistent"></li>
+            <li>Can pick up loot:<input type="checkbox" id="Ploot"></li>
+            <li>No AI:<input type="checkbox" id="NoAi"></li>
+            <li>Silent:<input type="checkbox" id="Silent"></li>
+            <li>Max Health:<input type="text" id="MHP"></li>
+            <li>Invulnerable:<input type="checkbox" id="Invulnerable"></li>
+            <li>Death Loot Table:<input type="text" id="Dloot"></li>
+            <li>Status Effects:<input type="checkbox" id="ShowEffects">
+              <div id="Effects">
+                <ul>
+                  <li>Speed:<input type="checkbox" id="ESpeed"> Amplifier:<input type="text" id="ASpeed"> Duration(secs):<input type="text" id="DSpeed">Hide particles:<input type="checkbox" id="HSpeed">
+                  </li>
+                  <div class="S Effects">
+                    <li>Speed:<input type="checkbox" id="ESpeed"> Amplifier:<input type="text" id="ASpeed"> Duration(secs):<input type="text" id="DSpeed">Hide particles:<input type="checkbox" id="HSpeed">
+                    </li>
+                    <li>Slowness:<input type="checkbox" id="ESlowness"> Amplifier:<input type="text" id="ASlowness"> Duration(secs):<input type="text" id="DSlowness">Hide particles:<input type="checkbox" id="HSlowness">
+                    </li>
+                    <li>Haste:<input type="checkbox" id="EHaste"> Amplifier:<input type="text" id="AHaste"> Duration(secs):<input type="text" id="DHaste">Hide particles:<input type="checkbox" id="HHaste">
+                    </li>
+                    <li>Mining Fatigue:<input type="checkbox" id="EFatigue"> Amplifier:<input type="text" id="AFatigue"> Duration(secs):<input type="text" id="DFatigue">Hide particles:<input type="checkbox" id="HFatigue">
+                    </li>
+                    <li>Strength:<input type="checkbox" id="EStrength"> Amplifier:<input type="text" id="AStrength"> Duration(secs):<input type="text" id="DStrength">Hide particles:<input type="checkbox" id="HStrength">
+                    </li>
+                    <li>Instant Health:<input type="checkbox" id="EHealth"> Amplifier:<input type="text" id="AHealth"> Duration(secs):<input type="text" id="DHealth">Hide particles:<input type="checkbox" id="HHealth">
+                    </li>
+                    <li>Instant Damage:<input type="checkbox" id="EDamage"> Amplifier:<input type="text" id="ADamage"> Duration(secs):<input type="text" id="DDamage">Hide particles:<input type="checkbox" id="HDamage">
+                    </li>
+                    <li>Jump Boost:<input type="checkbox" id="EJump"> Amplifier:<input type="text" id="AJump"> Duration(secs):<input type="text" id="DJump">Hide particles:<input type="checkbox" id="HJump">
+                    </li>
+                    <li>Nausea:<input type="checkbox" id="ENausea"> Amplifier:<input type="text" id="ANausea"> Duration(secs):<input type="text" id="DNausea">Hide particles:<input type="checkbox" id="HNausea">
+                    </li>
+                    <li>Regeneration:<input type="checkbox" id="ERegeneration"> Amplifier:<input type="text" id="ARegeneration"> Duration(secs):<input type="text" id="DRegeneration">Hide particles:<input type="checkbox" id="HRegeneration">
+                    </li>
+                    <li>Resistance:<input type="checkbox" id="EResistance"> Amplifier:<input type="text" id="AResistance"> Duration(secs):<input type="text" id="DResistance">Hide particles:<input type="checkbox" id="HResistance">
+                    </li>
+                    <li>Fire Resistance:<input type="checkbox" id="EFResistance"> Amplifier:<input type="text" id="AFResistance"> Duration(secs):<input type="text" id="DFResistance">Hide particles:<input type="checkbox" id="HFResistance">
+                    </li>
+                    <li>Water Breathing:<input type="checkbox" id="EBreathing"> Amplifier:<input type="text" id="ABreathing"> Duration(secs):<input type="text" id="DBreathing">Hide particles:<input type="checkbox" id="HBreathing">
+                    </li>
+                    <li>Invisibility:<input type="checkbox" id="EInvisibility"> Amplifier:<input type="text" id="AInvisibility"> Duration(secs):<input type="text" id="DInvisibility">Hide particles:<input type="checkbox" id="HInvisibility">
+                    </li>
+                    <li>Blindness:<input type="checkbox" id="EBlindness"> Amplifier:<input type="text" id="ABlindness"> Duration(secs):<input type="text" id="DBlindness">Hide particles:<input type="checkbox" id="HBlindness">
+                    </li>
+                    <li>Night Vision:<input type="checkbox" id="EVision"> Amplifier:<input type="text" id="AVision"> Duration(secs):<input type="text" id="DVision">Hide particles:<input type="checkbox" id="HVision">
+                    </li>
+                    <li>Hunger:<input type="checkbox" id="EHunger"> Amplifier:<input type="text" id="AHunger"> Duration(secs):<input type="text" id="DHunger">Hide particles:<input type="checkbox" id="HHunger">
+                    </li>
+                    <li>Weakness:<input type="checkbox" id="EWeakness"> Amplifier:<input type="text" id="AWeakness"> Duration(secs):<input type="text" id="DWeakness">Hide particles:<input type="checkbox" id="HWeakness">
+                    </li>
+                    <li>Poison:<input type="checkbox" id="EPoison"> Amplifier:<input type="text" id="APoison"> Duration(secs):<input type="text" id="DPoison">Hide particles:<input type="checkbox" id="HPoison">
+                    </li>
+                    <li>Wither:<input type="checkbox" id="EWither"> Amplifier:<input type="text" id="AWither"> Duration(secs):<input type="text" id="DWither">Hide particles:<input type="checkbox" id="HWither">
+                    </li>
+                    <li>Health Boost:<input type="checkbox" id="EBoost"> Amplifier:<input type="text" id="ABoost"> Duration(secs):<input type="text" id="DBoost">Hide particles:<input type="checkbox" id="HBoost">
+                    </li>
+                    <li>Absorption:<input type="checkbox" id="EAbsorption"> Amplifier:<input type="text" id="AAbsorption"> Duration(secs):<input type="text" id="DAbsorption">Hide particles:<input type="checkbox" id="HAbsorption">
+                    </li>
+                    <li>Saturation:<input type="checkbox" id="ESaturation"> Amplifier:<input type="text" id="ASaturation"> Duration(secs):<input type="text" id="DSaturation">Hide particles:<input type="checkbox" id="HSaturation">
+                    </li>
+                    <li>Glowing:<input type="checkbox" id="EGlowing"> Amplifier:<input type="text" id="AGlowing"> Duration(secs):<input type="text" id="DGlowing">Hide particles:<input type="checkbox" id="HGlowing">
+                    </li>
+                    <li>Levitation:<input type="checkbox" id="ELevitation"> Amplifier:<input type="text" id="ALevitation"> Duration(secs):<input type="text" id="DLevitation">Hide particles:<input type="checkbox" id="HLevitation">
+                    </li>
+                    <li>Luck:<input type="checkbox" id="ELuck"> Amplifier:<input type="text" id="ALuck"> Duration(secs):<input type="text" id="DLuck">Hide particles:<input type="checkbox" id="HLuck">
+                    </li>
+                    <li>Bad Luck:<input type="checkbox" id="EBLuck"> Amplifier:<input type="text" id="ABLuck"> Duration(secs):<input type="text" id="DBLuck">Hide particles:<input type="checkbox" id="HBLuck">
+                    </li>
+                  </div>
+              </div>
+            </li>
+            <li class="Armor">Armor:<input type="checkbox" id="Armor">
+              <div id="SArmor">
+                <ul>
+                  <li>Head:(Set up auto fills)</li>
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers">
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <li>Chest:(Set up auto fills)</li>
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers">
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <li>Legs:(Set up auto fills)</li>
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers">
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <li>Feet:(Set up auto fills)</li>
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers">
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <li>Holding:(Set up auto fills)</li>
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers">
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <li>Off Hand:(Set up auto fills)
+                    <ul>
+                      <li>Drop Chance:<input list="DropNumbers"></li>
+                      <li>Count(max 64):<input type="number" placeholder="1"></li>
+                    </ul>
+                  </li>
+                  <datalist id="DropNumbers">
+                    <option value="8.5 (Default)">
+                    <option value="10">
+                    <option value="20">
+                    <option value="30">
+                    <option value="40">
+                    <option value="50">
+                    <option value="60">
+                    <option value="70">
+                    <option value="80">
+                    <option value="90">
+                    <option value="100">
+                    <option value="100 undamaged">
+                  </datalist>
+              </div>
+            </li>
+            <datalist id="Entity">
+              <option value="area effect cloud">
+              <option value="armor stand">
+              <option value="arrow">
+              <option value="bat">
+              <option value="blaze">
+              <option value="boat">
+              <option value="cave spider">
+              <option value="chicken">
+              <option value="cow">
+              <option value="creeper">
+              <option value="donkey">
+              <option value="elder guardian">
+              <option value="ender crystal">
+              <option value="ender dragon">
+              <option value="enderman">
+              <option value="endermite">
+              <option value="ghast">
+              <option value="giant">
+              <option value="guardian">
+              <option value="horse">
+              <option value="husk">
+              <option value="llama">
+              <option value="magma cube">
+              <option value="mooshroom">
+              <option value="mule">
+              <option value="ocelot">
+              <option value="parrot">
+              <option value="pig">
+              <option value="polar bear">
+              <option value="rabbit">
+              <option value="sheep">
+              <option value="shulker">
+              <option value="shulker bullet">
+              <option value="silverfish">
+              <option value="skeleton">
+              <option value="skeleton horse">
+              <option value="slime">
+              <option value="snowman">
+              <option value="spider">
+              <option value="squid">
+              <option value="stray">
+              <option value="vex">
+              <option value="villager">
+              <option value="vindication illager">
+              <option value="villager golem">
+              <option value="witch">
+              <option value="wither">
+              <option value="wither skeleton">
+              <option value="wolf">
+              <option value="zombie">
+              <option value="zombie horse">
+              <option value="zombie pigman">
+            </datalist>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="SideB">
+    </div>
+  </body>
+  <footer>
+    <nav>
+      <h2><a href="">I'm a H2 tag</a></h2>
+      <ul>
+        <li><a href="Pages/Give.html">Give</a></li>
+        <li class="Current"><a href="">Summon</a></li>
+        <li><a href="Pages/Score.html">Score Boards</a></li>
+        <li><a href="Pages/Effects.html">Effects</a></li>
+        <li><a href="Pages/Other.html">Others</a></li>
+      </ul>
+    </nav>
+  </footer>
+</html>

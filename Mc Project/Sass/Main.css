@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+  color:inherit;
+  position: relative;
+}
+Nav ul  {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 10%;
+  margin: 0;
+}
+Nav ul li {
+    display: inline-block;
+    border-left: solid black 2px;
+    font-size: 20px;
+    padding: 15px 10px;
+    height: 20px;
+}
+body {
+  background-image: url(../Images/Bg.png);
+  margin: 0;
+  color:white;
+}
+header {
+  background-image: url(../Images/top.png);
+  background-size:100%;
+  padding-top: 100px;
+  height: 10%;
+  max-height: 250px;
+  color:yellow;
+}
+img {
+  display: none;
+}
+header nav {
+  width: 100%;
+  height: 50px;
+  background-color: #313131;
+  border-top: solid #00a013 20px;
+  border-bottom: solid #484848 8px
+}
+.MainB {
+  margin: 0 10%;
+}
+.MainB section{
+  min-height: 550px;
+  margin: 50px 0;
+  background: #212121;
+  border-radius: 15px;
+  border: solid #262626 5px;
+  max-width: 1300px;
+  overflow: auto;
+}
+section h3 {
+  margin:0 15px 0 0;
+  padding: 0 0 5px 3%;
+  width: 150px;
+  background:#262626;
+  border-bottom-right-radius: 5px;
+  font-size: 2em;
+
+}.GDes {
+  float: left;
+  margin-right: 55%;
+}
+#Generator {
+  float: left;
+}
+#Effects {
+  display: none;
+}
+.Armor {
+  display: none;
+}
+.Current {
+  color: red;
+}

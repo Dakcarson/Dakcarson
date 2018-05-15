@@ -1,0 +1,120 @@
+.MainB .Top {
+  text-align: center;
+  background: url(../Images/Home/Pickaxe.png) center left no-repeat, url(../Images/Home/obsB.png) center no-repeat, url(../Images/Home/obs.png) repeat;
+  height: 400px;
+  color: white; }
+  .MainB .Top p {
+    width: 600px;
+    margin: 50px auto;
+    padding: 100px 0 0 0;
+    font-size: 1.3em; }
+    .MainB .Top p b {
+      font-size: 1.35em; }
+  .MainB .Top .button {
+    width: 250px;
+    background: #d8315b;
+    font-size: 2em;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: #67182c 5px 7px; }
+    .MainB .Top .button a {
+      padding-top: 20px; }
+
+.MainB .Tiles {
+  align-content: center;
+  display: table;
+  margin: 0 auto; }
+  .MainB .Tiles ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    list-style: none; }
+    .MainB .Tiles ul li {
+      background: #dbdbdb;
+      width: 190px;
+      height: 150px;
+      float: left;
+      margin: 25px 10px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 15px 15px;
+      box-shadow: #a49f9f 3px 3px;
+      display: inline; }
+
+.MainB .Features {
+  display: table;
+  margin: 0 auto;
+  padding-top: 100px; }
+  .MainB .Features ul {
+    list-style: none;
+    width: 500px; }
+    .MainB .Features ul li {
+      float: left;
+      display: inline;
+      width: 200px;
+      margin: 10px 25px;
+      text-align: center;
+      padding: 10px 0;
+      background: #dbdbdb url(../Images/Home/checkmark.png) center left no-repeat;
+      border-radius: 2px;
+      box-shadow: #a49f9f 3px 3px; }
+
+.MainB .Reviews {
+  text-align: center; }
+  .MainB .Reviews .slideshow-container div {
+    align-content: center;
+    margin: 0 auto;
+    display: table;
+    height: 350px; }
+    .MainB .Reviews .slideshow-container div ul {
+      height: 300px;
+      list-style: none;
+      margin: 0 auto;
+      overflow: hidden; }
+      .MainB .Reviews .slideshow-container div ul li {
+        display: inline;
+        float: left;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        color: #675f53; }
+        .MainB .Reviews .slideshow-container div ul li q {
+          padding: 10px 0; }
+        .MainB .Reviews .slideshow-container div ul li p {
+          font-weight: bold;
+          font-size: .75em; }
+      .MainB .Reviews .slideshow-container div ul li:first-of-type {
+        border-right: none;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px; }
+      .MainB .Reviews .slideshow-container div ul li:last-of-type {
+        border-left: none;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px; }
+      .MainB .Reviews .slideshow-container div ul .Stars {
+        height: 30px; }
+      .MainB .Reviews .slideshow-container div ul .Plan {
+        height: 100px;
+        border-radius: 10px; }
+
+.button {
+  width: 250px;
+  background: #d8315b;
+  font-size: 2em;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: #67182c 5px 7px;
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+  color: white; }
+  .button a {
+    padding-bottom: 10px; }
+
+#bg {
+  width: 850px;
+  background: url(../Images/Home/steve.png) center right no-repeat, url(../Images/Home/alex.png) center left no-repeat;
+  height: 400px;
+  margin: 0 auto; }
