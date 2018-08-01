@@ -1,0 +1,57 @@
+html,
+body,
+ul,
+ol,
+div,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+a, a:visited, a:hover, a:active {
+  color: inherit; }
+
+body {
+  font-family: times;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+body nav ul, footer nav ul {
+  width: 100%; }
+  body nav ul li, footer nav ul li {
+    float: left;
+    display: inline;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0 5px; }
+  body nav ul li:first-child, footer nav ul li:first-child {
+    padding-left: 20px; }
+
+h1 {
+  font-size: 1em; }
+  h1 img {
+    height: 75px; }
+  h1 p {
+    text-indent: -999999999px;
+    padding: 0;
+    margin: 0;
+    height: 0; }
+
+footer {
+  background: #3e92cc;
+  padding: 15px 0 0 0;
+  font-size: .75em; }
+  footer .twitter {
+    text-indent: 90%;
+    height: 0; }
+    footer .twitter img {
+      height: 35px;
+      position: relative;
+      bottom: 15px;
+      left: 96%; }
+
+p {
+  padding-left: 20px; }
+
+#Current {
+  color: #970bc2;
+  font-weight: bold; }
